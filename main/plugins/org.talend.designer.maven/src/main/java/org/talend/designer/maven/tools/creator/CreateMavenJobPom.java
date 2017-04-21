@@ -446,7 +446,7 @@ public class CreateMavenJobPom extends AbstractMavenProcessorPom {
 
     @Override
     protected void afterCreate(IProgressMonitor monitor) throws Exception {
-        setPomForHDLight(monitor);
+        setPomForHDInsight(monitor);
 
         final IProcess process = getJobProcessor().getProcess();
         Map<String, Object> args = new HashMap<String, Object>();
@@ -465,7 +465,7 @@ public class CreateMavenJobPom extends AbstractMavenProcessorPom {
 
     }
 
-    private void setPomForHDLight(IProgressMonitor monitor) {
+    private void setPomForHDInsight(IProgressMonitor monitor) {
         if (ProcessUtils.jarNeedsToContainContext()) {
             try {
                 Model model = MODEL_MANAGER.readMavenModel(getPomFile());

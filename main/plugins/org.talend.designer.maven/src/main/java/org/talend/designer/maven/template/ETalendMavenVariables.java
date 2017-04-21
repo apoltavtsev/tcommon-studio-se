@@ -19,6 +19,7 @@ import java.util.Map;
  */
 public enum ETalendMavenVariables {
     ProductVersion,
+    JavaVersion,
 
     ProjectGroupId,
     ProjectArtifactId,
