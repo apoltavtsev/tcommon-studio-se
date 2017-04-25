@@ -124,6 +124,8 @@
 		<module>main/plugins/org.talend.libraries.jexcel.jars</module>
 		<module>main/plugins/org.talend.libraries.jfreechart</module>
 		<module>main/plugins/org.talend.libraries.jfreechart.jars</module>
+		<module>main/plugins/org.talend.libraries.jboss</module>
+		<module>main/plugins/org.talend.libraries.jboss.jars</module>
 		<module>main/plugins/org.talend.libraries.jxplorer</module>
 		<module>main/plugins/org.talend.libraries.mdm</module>
 		<module>main/plugins/org.talend.libraries.mdm.webservice.ce</module>
